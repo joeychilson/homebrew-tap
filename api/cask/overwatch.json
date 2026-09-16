@@ -1,0 +1,54 @@
+{
+  "token": "overwatch",
+  "full_token": "joeychilson/tap/overwatch",
+  "old_tokens": [],
+  "tap": "joeychilson/tap",
+  "name": [
+    "Overwatch"
+  ],
+  "desc": "Explore coding sessions, understand model usage, and track costs on your desktop",
+  "homepage": "https://github.com/joeychilson/overwatch",
+  "url": "https://github.com/joeychilson/overwatch/releases/download/v0.1.0/Overwatch_0.1.0_universal.dmg",
+  "url_specs": {},
+  "version": "0.1.0",
+  "installed": null,
+  "installed_time": null,
+  "bundle_version": null,
+  "bundle_short_version": null,
+  "outdated": false,
+  "sha256": "811b7c741faa6178b173f15970d3691448d06db81a8b8d0499a214aa7626c991",
+  "artifacts": [
+    {
+      "app": [
+        "Overwatch.app"
+      ],
+      "target": "/Applications/Overwatch.app"
+    },
+    {
+      "zap": [
+        {
+          "trash": [
+            "~/Library/Application Support/com.joeychilson.overwatch",
+            "~/Library/Caches/com.joeychilson.overwatch",
+            "~/Library/Saved Application State/com.joeychilson.overwatch.savedState"
+          ]
+        }
+      ]
+    }
+  ],
+  "caveats": null,
+  "depends_on": {
+    "macos": {
+      ">=": [
+        "13"
+      ]
+    }
+  },
+  "conflicts_with": null,
+  "container": null,
+  "auto_updates": false,
+  "deprecated": false,
+  "disabled": false,
+  "languages": [],
+  "variations": {}
+}
