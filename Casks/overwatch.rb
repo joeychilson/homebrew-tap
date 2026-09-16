@@ -13,9 +13,10 @@ cask "overwatch" do
     strategy :github_latest
   end
 
-  # Not notarized, so Gatekeeper stops a downloaded copy unless it arrives
-  # without the quarantine flag: install with `--no-quarantine`.
-  depends_on macos: ">= :ventura"
+  # Not notarized, so macOS stops this the first time it is opened, whoever
+  # installed it. Homebrew quarantines every cask and no longer offers a way
+  # not to, so there is nothing a cask can do about that.
+  depends_on macos: :ventura
 
   app "Overwatch.app"
 
