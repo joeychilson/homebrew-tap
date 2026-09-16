@@ -7,8 +7,14 @@ cask "overwatch" do
   desc "Explore coding sessions, understand model usage, and track costs on your desktop"
   homepage "https://github.com/joeychilson/overwatch"
 
-  # Not notarized, so Gatekeeper stops it unless it arrives without the
-  # quarantine flag: install with `--no-quarantine`.
+  # Releases are tags, so the newest one is what Homebrew should compare with.
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
+  # Not notarized, so Gatekeeper stops a downloaded copy unless it arrives
+  # without the quarantine flag: install with `--no-quarantine`.
   depends_on macos: ">= :ventura"
 
   app "Overwatch.app"
