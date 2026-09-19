@@ -1,6 +1,6 @@
 cask "overwatch" do
-  version "0.2.0"
-  sha256 "d50c0f86bc063001904bf647e82808d5584747258d110c5cb645e0a80ff5edff"
+  version "0.3.0"
+  sha256 "c2af9381155e5d36bcfd5056c71bcd7d5eebe82a68c8e31d44a4a5db2309259e"
 
   url "https://github.com/joeychilson/overwatch/releases/download/v#{version}/Overwatch_#{version}_universal.dmg"
   name "Overwatch"

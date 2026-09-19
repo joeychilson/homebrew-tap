@@ -8,15 +8,15 @@
   ],
   "desc": "Explore coding sessions, understand model usage, and track costs on your desktop",
   "homepage": "https://github.com/joeychilson/overwatch",
-  "url": "https://github.com/joeychilson/overwatch/releases/download/v0.2.0/Overwatch_0.2.0_universal.dmg",
+  "url": "https://github.com/joeychilson/overwatch/releases/download/v0.3.0/Overwatch_0.3.0_universal.dmg",
   "url_specs": {},
-  "version": "0.2.0",
+  "version": "0.3.0",
   "installed": null,
   "installed_time": null,
   "bundle_version": null,
   "bundle_short_version": null,
   "outdated": false,
-  "sha256": "d50c0f86bc063001904bf647e82808d5584747258d110c5cb645e0a80ff5edff",
+  "sha256": "c2af9381155e5d36bcfd5056c71bcd7d5eebe82a68c8e31d44a4a5db2309259e",
   "artifacts": [
     {
       "app": [
